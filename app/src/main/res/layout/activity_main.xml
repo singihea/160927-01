@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a512.a160927_01.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1번"
+        android:id="@+id/textView1"
+        android:layout_above="@+id/btContact1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Contact1"
+    android:id="@+id/btContact1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/btCall1"
+        android:layout_below="@+id/btContact1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:id="@+id/btSMS1"
+        android:layout_below="@+id/btCall1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2번"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/btContact2"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact2"
+        android:id="@+id/btContact2"
+        android:layout_above="@+id/btCall1"
+        android:layout_alignRight="@+id/btCall2"
+        android:layout_alignEnd="@+id/btCall2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/btCall2"
+        android:layout_above="@+id/btSMS1"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:id="@+id/btSMS2"
+        android:layout_alignTop="@+id/btSMS1"
+        android:layout_alignLeft="@+id/btCall2"
+        android:layout_alignStart="@+id/btCall2" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3번"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/btContact3"
+        android:layout_alignRight="@+id/btContact3"
+        android:layout_alignEnd="@+id/btContact3"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact3"
+        android:id="@+id/btContact3"
+        android:layout_above="@+id/btCall1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/btCall3"
+        android:layout_alignTop="@+id/btCall2"
+        android:layout_alignRight="@+id/btContact3"
+        android:layout_alignEnd="@+id/btContact3" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:id="@+id/btSMS3"
+        android:layout_alignTop="@+id/btSMS2"
+        android:layout_alignLeft="@+id/btCall3"
+        android:layout_alignStart="@+id/btCall3" />
+
+
+
+</RelativeLayout>
